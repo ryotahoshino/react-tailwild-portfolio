@@ -10,9 +10,9 @@ function App() {
           <span>portfolio</span>
         </a>
         <nav>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#blog">Blog</a>
         </nav>
       </div>
     </header>
