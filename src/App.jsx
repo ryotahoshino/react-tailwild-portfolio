@@ -24,29 +24,26 @@ function App() {
         </div>
       </header>
 
-      <section>
-        <div>
-          <div>
-            <h1>
+      <section className='text-gray-700' id='home'>
+        <div className='flex container mx-auto py-20 px-5 flex-col md:flex-row items-center justify-center'>
+          <div className='md:w-1/2 flex-grow mb-16 lg:pr-24 md:pr-16'>
+            <h1 className='text-2xl sm:text-3xl text-gray-900 font-medium mb-4'>
               Welcome to the world of GT!!
               <br />
               Let's take peek into the world!
             </h1>
-            <p>
+            <p className='mb-8 leading-relaxed'>
               Giant trevally inhabits temperate zones from the Indian Ocean to the Pacific Ocean off the coast of Hawaii. In Japan and around the world, 
               anglers commonly call it "GT", which is an abbreviation of the English name "Giant Trevally". 
+              <br />
               Among the large, carnivorous fishes of the Perciformes family of the Perciformes of the genus Bigeye Trevally, 
               it grows up to be the largest and most powerful, so it is recognized by anglers around the world as the supreme target for lure fishing in coastal areas.
-              <br />
-              It is said to grow up to a total length of 180 cm and a weight of 80 kg, 
-              and in the waters near Japan, which is the northernmost habitat in the world, 
-              it is possible to catch a large fish with a length of 160 cm and a weight of 60 kg, 
-              which is close to the upper limit. The fishing grounds include the waters surrounding Okinawa Prefecture, 
-              the Amami Islands in Kagoshima Prefecture, and the Tokara Islands.
             </p>
-            <button>Learn more</button>
+            <button className='text-white bg-blue-500 py-2 px-6 border-0 rounded text-lg hover:bg-blue-400 duration-300'>
+              Learn more
+            </button>
           </div>
-          <div>
+          <div className='md:w-1/2 lg:max-w-lg'>
             <img src="./img/883941_s.jpg" alt="" />
           </div>
         </div>
