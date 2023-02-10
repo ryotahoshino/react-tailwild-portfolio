@@ -48,6 +48,37 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className='text-gray-700 border-t border-gray-200'>
+        <div className='container px-5 py-24 mx-auto '>
+          <div className='text-center mb-20 '>
+            <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>
+              Explanation
+            </h1>
+            <p className='pb-10 '>
+              Fishes dissipate into all aquatic environments on earth, 
+              and their habitats range from the tropics to the polar regions, 
+              from the surface to the depths of the ocean, and to inland freshwater areas. 
+              Their ecology and morphology are also very diverse.
+            </p>
+            <p>
+              There are currently 27,000 species of fish on earth. About 4,000 species 
+              live around Japan. Fish can appear anywhere there is water, both saltwater 
+              and freshwater. In the ocean, which covers 70% of the earth's surface, 
+              there is no place without fish, from the coast to the middle of the ocean far offshore to a depth of 8000 m. 
+              On land, fish live not only in rivers and lakes, 
+              but also in groundwater, hot springs, alpine lakes and desert puddles.
+              New species of mammals and birds are rarely found, but many new species of fish are reported each year. 
+              Several new species are also reported from around Japan every year. In addition, 
+              even if it is not a new species, about 15 species of fish that have been discovered 
+              for the first time in Japan are reported every year. 
+              In other words, 
+              the taxonomy of fish is still in its infancy.
+            </p>
+          </div>
+          <div></div>
+        </div>
+      </section>
     </>
     
   )
