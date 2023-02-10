@@ -49,14 +49,17 @@ function App() {
         </div>
       </section>
 
-      <section>
-        <div>
-          <div>
-            <h1>Explanation</h1>
-            <p>Fishes dissipate into all aquatic environments on earth, 
-               and their habitats range from the tropics to the polar regions, 
-               from the surface to the depths of the ocean, and to inland freshwater areas. 
-               Their ecology and morphology are also very diverse.
+      <section className='text-gray-700 border-t border-gray-200'>
+        <div className='container px-5 py-24 mx-auto '>
+          <div className='text-center mb-20 '>
+            <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>
+              Explanation
+            </h1>
+            <p className='pb-10 '>
+              Fishes dissipate into all aquatic environments on earth, 
+              and their habitats range from the tropics to the polar regions, 
+              from the surface to the depths of the ocean, and to inland freshwater areas. 
+              Their ecology and morphology are also very diverse.
             </p>
             <p>
               There are currently 27,000 species of fish on earth. About 4,000 species 
