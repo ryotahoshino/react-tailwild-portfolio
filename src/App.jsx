@@ -76,7 +76,150 @@ function App() {
               the taxonomy of fish is still in its infancy.
             </p>
           </div>
-          <div></div>
+
+          <div className='flex flex-wrap'>
+            <div className='md:w-1/3 p-4'>
+              <div className='bg-gray-200 rounded-lg p-8'>
+                <div className='flex items-center mb-3'>
+                  <div className='bg-blue-500 text-white rounded-full'>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 0C16.7614 0 19 2.23858 19 5V17C19 20.866 15.866 24 12 24C8.13401 24 5 20.866 5 17V9H7V17C7 19.7614 9.23858 22 12 22C14.7614 22 17 19.7614 17 17V5C17 3.34315 15.6569 2 14 2C12.3431 2 11 3.34315 11 5V17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17V6H15V17C15 18.6569 13.6569 20 12 20C10.3431 20 9 18.6569 9 17V5C9 2.23858 11.2386 0 14 0Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <h2 className='text-gray-900 text-lg font-medium mr-2'>
+                    type of fish
+                  </h2>
+                </div>
+                <div>
+                  <p>
+                    There are about 25,000 species of fish in the world.
+                    About 14,550 of them are saltwater fish.
+                    There are about 10,450 species of freshwater fish.
+                    About 3,863 species of fish have been confirmed in 
+                    Japan and its surrounding waters.
+                  </p>
+                  <a href="#" className='flex mt-3 text-blue-500 items-center'>
+                    more read
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className='md:w-1/3 p-4'>
+              <div className='bg-gray-200 rounded-lg p-8'>
+                <div className='flex items-center mb-3'>
+                  <div className='bg-blue-500 text-white rounded-full'>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 0C16.7614 0 19 2.23858 19 5V17C19 20.866 15.866 24 12 24C8.13401 24 5 20.866 5 17V9H7V17C7 19.7614 9.23858 22 12 22C14.7614 22 17 19.7614 17 17V5C17 3.34315 15.6569 2 14 2C12.3431 2 11 3.34315 11 5V17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17V6H15V17C15 18.6569 13.6569 20 12 20C10.3431 20 9 18.6569 9 17V5C9 2.23858 11.2386 0 14 0Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <h2 className='text-gray-900 text-lg font-medium mr-2'>
+                    type of fish
+                  </h2>
+                </div>
+                <div>
+                  <p>
+                    There are about 25,000 species of fish in the world.
+                    About 14,550 of them are saltwater fish.
+                    There are about 10,450 species of freshwater fish.
+                    About 3,863 species of fish have been confirmed in 
+                    Japan and its surrounding waters.
+                  </p>
+                  <a href="#" className='flex mt-3 text-blue-500 items-center'>
+                    more read
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className='md:w-1/3 p-4'>
+              <div className='bg-gray-200 rounded-lg p-8'>
+                <div className='flex items-center mb-3'>
+                  <div className='bg-blue-500 text-white rounded-full'>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 0C16.7614 0 19 2.23858 19 5V17C19 20.866 15.866 24 12 24C8.13401 24 5 20.866 5 17V9H7V17C7 19.7614 9.23858 22 12 22C14.7614 22 17 19.7614 17 17V5C17 3.34315 15.6569 2 14 2C12.3431 2 11 3.34315 11 5V17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17V6H15V17C15 18.6569 13.6569 20 12 20C10.3431 20 9 18.6569 9 17V5C9 2.23858 11.2386 0 14 0Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <h2 className='text-gray-900 text-lg font-medium mr-2'>
+                    type of fish
+                  </h2>
+                </div>
+                <div>
+                  <p>
+                    There are about 25,000 species of fish in the world.
+                    About 14,550 of them are saltwater fish.
+                    There are about 10,450 species of freshwater fish.
+                    About 3,863 species of fish have been confirmed in 
+                    Japan and its surrounding waters.
+                  </p>
+                  <a href="#" className='flex mt-3 text-blue-500 items-center'>
+                    more read
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
