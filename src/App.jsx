@@ -50,7 +50,7 @@ function App() {
       </section>
 
       <section className='text-gray-700 border-t border-gray-200'>
-        <div className='container px-5 py-24 mx-auto '>
+        <div className='container px-5 py-24 mx-auto'>
           <div className='text-center mb-20 '>
             <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>
               Explanation
@@ -222,8 +222,29 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className='text-gray-700 border-t border-gray-200'>
+        <div className='container px-5 py-24 mx-auto flex flex-col md:flex-row items-center justify-center'>
+          <div>
+            <img src="./img/2EAF8F21-C226-43A7-8B67-A89180460AAE.png" alt="" className='rounded flex'/>
+          </div>
+          <div className='lg:pl-12 lg:py-6 pl-10 '>
+            <h1 className='text-2xl sm:text-3xl font-medium text-gray-900 mb-10 flex'>
+              <div>My&nbsp;</div>
+              <div>Catching&nbsp;</div>
+              <div>Fish</div>
+            </h1>
+            <div>
+              <h2>Size</h2>
+              <div className='shadow bg-blue-300 mt-2 w-full rounded'>
+                <div className='text-xs py-1 text-center'>18kg</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
-    
+
   )
 }
 
